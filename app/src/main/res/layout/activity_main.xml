@@ -7,14 +7,20 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.anas.movieapp.MainActivity">
+    tools:context="com.example.android.movieapp.activity.MainActivity">
 
-    <GridView
+    <FrameLayout
+        android:id="@+id/fragment_replace"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/father_grid"
+        />
+
+    <GridView
+        android:id="@+id/gridViewMovies"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:numColumns="2"
-        android:layout_margin="15dp">
+        >
 
     </GridView>
 </RelativeLayout>

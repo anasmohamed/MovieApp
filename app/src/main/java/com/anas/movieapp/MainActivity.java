@@ -7,7 +7,7 @@ import android.widget.GridView;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity{
-    private static final String BASE_URL = "https://api.themoviedb.org/3/movie/popular?api_key=fafafa7b34f6bc864117117864178666&language=en-US\n";
+    private static final String BASE_URL = "https://api.themoviedb.org/3/movie/popular?api_key=""&language=en-US\n";
     GridView mGridView;
    ArrayList<MoviesInfo> URL = new ArrayList<MoviesInfo>();
 
